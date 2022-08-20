@@ -12,14 +12,3 @@ let multiplyByThree = multiply.bind(this, 3);
 multiplyByThree(5); // output is 15
 
 // Currying concept can also be done with closures instead of bind function:
-let multiply1 = function (x) {
-  return function (y) {
-    console.log(x * y);
-  };
-};
-
-let multiplyByTwo2 = multiply1(2);
-multiplyByTwo2(53); // output will be 106
-
-let multiplyByThree3 = multiply1(3);
-multiplyByThree3(56); // output will be 168

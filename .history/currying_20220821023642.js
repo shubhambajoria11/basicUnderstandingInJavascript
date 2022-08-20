@@ -18,8 +18,4 @@ let multiply1 = function (x) {
   };
 };
 
-let multiplyByTwo2 = multiply1(2);
-multiplyByTwo2(53); // output will be 106
-
-let multiplyByThree3 = multiply1(3);
-multiplyByThree3(56); // output will be 168
+let multiplyByTwo1 = multiply1(2);
